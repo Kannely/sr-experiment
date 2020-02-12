@@ -1,2 +1,2 @@
 def class(Prout):
-    none
+    print(Prout)
