@@ -1,2 +1,0 @@
-def class(Prout):
-    none
