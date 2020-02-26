@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Source Files\device">
+      <UniqueIdentifier>{86727327-24b4-48e4-b33d-f968f2d06c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\general use">
+      <UniqueIdentifier>{529686fe-2259-4753-860b-f8c90892a767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\logger">
+      <UniqueIdentifier>{71961359-dead-4998-aa62-33165659faa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\supervisor">
+      <UniqueIdentifier>{62f7a0be-55b9-4d66-bb87-ae71f1255df9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Header Files\device">
+      <UniqueIdentifier>{479ef8d4-6a87-49c8-8839-df7f31c6b64e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\general use">
+      <UniqueIdentifier>{317171c7-bce4-4b54-9e67-0326a11ab405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\logger">
+      <UniqueIdentifier>{743626b3-b61e-4439-8cf1-fd5e40c160d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\supervisor">
+      <UniqueIdentifier>{f64ca21b-bed0-42f4-b483-2bc99bb44415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\device\ATIlib">
+      <UniqueIdentifier>{db4e50c7-e433-47ef-9b43-731d986a34d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AtiDummy.cpp">
+      <Filter>Source Files\device</Filter>
+    </ClCompile>
+    <ClCompile Include="AtiU6.cpp">
+      <Filter>Source Files\device</Filter>
+    </ClCompile>
+    <ClCompile Include="MilliSecTime.cpp">
+      <Filter>Source Files\general use</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>Source Files\general use</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>Source Files\general use</Filter>
+    </ClCompile>
+    <ClCompile Include="datalogger.cpp">
+      <Filter>Source Files\logger</Filter>
+    </ClCompile>
+    <ClCompile Include="haptlinksupervisor.cpp">
+      <Filter>Source Files\supervisor</Filter>
+    </ClCompile>
+    <ClCompile Include="dom.c">
+      <Filter>Header Files\device\ATIlib</Filter>
+    </ClCompile>
+    <ClCompile Include="expatls.c">
+      <Filter>Header Files\device\ATIlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ftconfig.c">
+      <Filter>Header Files\device\ATIlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ftrt.c">
+      <Filter>Header Files\device\ATIlib</Filter>
+    </ClCompile>
+    <ClCompile Include="node.c">
+      <Filter>Header Files\device\ATIlib</Filter>
+    </ClCompile>
+    <ClCompile Include="stack.c">
+      <Filter>Header Files\device\ATIlib</Filter>
+    </ClCompile>
+    <ClCompile Include="xmlparse.c">
+      <Filter>Header Files\device\ATIlib</Filter>
+    </ClCompile>
+    <ClCompile Include="xmlrole.c">
+      <Filter>Header Files\device\ATIlib</Filter>
+    </ClCompile>
+    <ClCompile Include="xmltok.c">
+      <Filter>Header Files\device\ATIlib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AtiDummy.h">
+      <Filter>Header Files\device</Filter>
+    </ClInclude>
+    <ClInclude Include="AtiU6.h">
+      <Filter>Header Files\device</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>Header Files\device</Filter>
+    </ClInclude>
+    <ClInclude Include="datamodel.h">
+      <Filter>Header Files\general use</Filter>
+    </ClInclude>
+    <ClInclude Include="MilliSecTime.h">
+      <Filter>Header Files\general use</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Header Files\general use</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>Header Files\general use</Filter>
+    </ClInclude>
+    <ClInclude Include="datalogger.h">
+      <Filter>Header Files\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="haptlinksupervisor.h">
+      <Filter>Header Files\supervisor</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
